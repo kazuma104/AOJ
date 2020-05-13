@@ -1,3 +1,7 @@
-if __name__ == "__main__":
-    for i in input():
-        print(i)
+# if __name__ == "__main__":
+#     x = [0]
+#     for i in input():
+#         if i == "\\":
+#             x += 1
+    
+#     print(x**2)
