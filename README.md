@@ -1,7 +1,39 @@
 # AOJ
+Aizu Online Judge  
+本家（？）
+http://judge.u-aizu.ac.jp/onlinejudge/  
+やりやすい方
+https://onlinejudge.u-aizu.ac.jp/home  
+なむぱいはつかえない
 
-Aizu Online Judge
-なむぱいつかえない
+*最後の出力の際に改行が無いとPEになる．
+
+# VScodeスニペット
+```json
+	"map(int, input().split())":{
+		"prefix": "mapint",
+		"body": "map(int, input().split())",
+		"description": "横のint型の入力",
+	},
+
+	"enumerate":{
+        "prefix": "fore",
+        "body": "for i, elem in enumerate():",
+        "description": "インデックスも同時に",
+	},
+	
+	"codeformat":{
+		"prefix": ["format","solve",],
+		"body": [
+			"def solve():",
+			"\t",
+			"",
+			"if __name__ == '__main__':",
+            "\tsolve()",
+        ],
+		"description": "フォーマット"
+	}
+```
 
 ## 入力の種類
 横にn個入力するパターンは  
