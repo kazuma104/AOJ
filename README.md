@@ -1,63 +1,72 @@
-# AOJ
-Aizu Online Judge  
+# AOJとは
+
+Aizu Online Judgeのこと．  
 本家（？）
-http://judge.u-aizu.ac.jp/onlinejudge/  
+<http://judge.u-aizu.ac.jp/onlinejudge/>  
 やりやすい方
-https://onlinejudge.u-aizu.ac.jp/home  
-なむぱいはつかえない
+<https://onlinejudge.u-aizu.ac.jp/home>  
+一部importは使用できない．なむぱいはつかえない
 
 *最後の出力の際に改行が無いとPEになる．
 
-# VScodeスニペット
-```json
-	"map(int, input().split())":{
-		"prefix": "mapint",
-		"body": "map(int, input().split())",
-		"description": "横のint型の入力",
-	},
+## VScodeスニペット
 
-	"enumerate":{
+```json
+    "map(int, input().split())":{
+        "prefix": "mapint",
+  "body": "map(int, input().split())",
+        "description": "横のint型の入力",
+    },
+
+    "enumerate":{
         "prefix": "fore",
         "body": "for i, elem in enumerate():",
         "description": "インデックスも同時に",
-	},
-	
-	"codeformat":{
-		"prefix": ["format","solve",],
-		"body": [
-			"def solve():",
-			"\t",
+    },
+        
+    "codeformat":{
+        "prefix": ["format","solve",],
+        "body": [
+            "def solve():",
+            "\t",
             "",
             "if __name__ == '__main__':",
             "\tsolve()",
         ],
-		"description": "フォーマット"
-	}
+        "description": "フォーマット"
+    }
 ```
 
 ## 入力の種類
-横にn個入力するパターンは  
+
+横にn個入力するパターンは
+
 ```python
 List = input().split() 
 ```
 
-縦にn個入力するパターンは
+縦にn個入力するパターンは  
+
 ```python
 List = [input() for _ in range(n)]
 #nは入力する数
 ```
 
 横にn個出力するパターンは
+
 ```python
 print(*List)
 #めっちゃ便利
 ```
 
 縦にn個出力するパターンは
+
 ```python
 [print(x) for x in List]
 ```
+
 ## ALDS1
+
 挿入ソート，最大公約数，素数判定，最大利益（FX取引）  
 バブルソート，選択ソート，安定なソート，シェルソート  
 スタック，キュー，双方向連結リスト，!水たまり問題!  
