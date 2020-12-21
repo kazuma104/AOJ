@@ -27,8 +27,8 @@ https://onlinejudge.u-aizu.ac.jp/home
 		"body": [
 			"def solve():",
 			"\t",
-			"",
-			"if __name__ == '__main__':",
+            "",
+            "if __name__ == '__main__':",
             "\tsolve()",
         ],
 		"description": "フォーマット"
