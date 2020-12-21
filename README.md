@@ -17,6 +17,12 @@ Aizu Online Judgeのこと．
   "body": "map(int, input().split())",
         "description": "横のint型の入力",
     },
+    
+    "int型1つ":{
+         "prefix":"ii",
+        "body":"n = int(input())",
+        "description":"int型1つの標準入力",
+    },
 
     "enumerate":{
         "prefix": "fore",
